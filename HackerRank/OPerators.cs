@@ -20,7 +20,7 @@ namespace HackerRank
 
             // calulation Part
              
-            double tip = mealCost * ((double)tipPercent / 100); //division by 100 always return 0.
+            double tip = mealCost * ((double)tipPercent / 100); //division by 100 always return 0. (Learn)
             double tax = mealCost * ((double)taxPercent / 100);
             double totalCost = mealCost + tip + tax;
 
