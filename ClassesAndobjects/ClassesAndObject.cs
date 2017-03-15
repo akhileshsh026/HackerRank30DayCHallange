@@ -10,7 +10,7 @@ namespace ClassesAndobjects
     {
         static void Main()
         {
-            Person p = new Person(18);
+            Person p = new Person(30);
             p.amIOld();
             for (int j = 0; j < 3; j++)
             {
@@ -35,7 +35,7 @@ namespace ClassesAndobjects
                 age = initialAge;
             }
             
-            else if(initialAge <0 && initialAge > -5)
+            else if(initialAge <0 && initialAge >= -5)
             {
                 age = 0;
                 Console.WriteLine("Age is not valid, setting age to 0.");
@@ -51,7 +51,7 @@ namespace ClassesAndobjects
             } else if (age>=13 && age<18)
             {
                 Console.WriteLine("You are a teenager. ");
-            } else
+            } else if (age >= 18 && age <= 33)
                 Console.WriteLine("You are old.");
         }
 
