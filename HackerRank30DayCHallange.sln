@@ -5,6 +5,10 @@ VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HackerRank", "HackerRank\HackerRank.csproj", "{790C3924-6AFF-4BBE-B468-369ACFBCA8D1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Loops", "Loops\Loops.csproj", "{6D336B63-A723-4A74-B1DC-91DDE2F7929F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day6-LetsReview", "Day6-LetsReview\Day6-LetsReview.csproj", "{5F9942B9-B759-4CD1-B515-CC556BA6390D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{790C3924-6AFF-4BBE-B468-369ACFBCA8D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{790C3924-6AFF-4BBE-B468-369ACFBCA8D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{790C3924-6AFF-4BBE-B468-369ACFBCA8D1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6D336B63-A723-4A74-B1DC-91DDE2F7929F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6D336B63-A723-4A74-B1DC-91DDE2F7929F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6D336B63-A723-4A74-B1DC-91DDE2F7929F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6D336B63-A723-4A74-B1DC-91DDE2F7929F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5F9942B9-B759-4CD1-B515-CC556BA6390D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5F9942B9-B759-4CD1-B515-CC556BA6390D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5F9942B9-B759-4CD1-B515-CC556BA6390D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5F9942B9-B759-4CD1-B515-CC556BA6390D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
