@@ -21,34 +21,6 @@ namespace Day7_Arrays
                 Console.Write(' ');
             }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-            //int[] A = new int[N];
-
-            //for (int i = 0; i < N; i++)
-            //{
-            //    A[i] = Convert.ToInt32(Console.ReadLine());
-            //}
-
-            //Array.Reverse(A);
-            //foreach (var item in A)
-            //{
-            //    Console.Write(item);
-            //    Console.Write(" ");
-            //}
-
-            //Console.ReadKey();
         }
     }
 }
