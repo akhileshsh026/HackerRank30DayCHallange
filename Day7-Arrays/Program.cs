@@ -12,22 +12,43 @@ namespace Day7_Arrays
         {
             Console.WriteLine("Enter the Number");
             int N = Convert.ToInt32(Console.ReadLine());
-            int[] A = new int[N];
-            string[] s = new string[N]; 
-            for (int i = 0; i < N; i++)
+            string[] arr_temp = Console.ReadLine().Split(' ');
+            int[] arr = Array.ConvertAll(arr_temp, Int32.Parse);
+            Array.Reverse(arr);
+            foreach (var item in arr)
             {
-                
-                    s[i] = Console.ReadLine();
-                
-
+                Console.Write(item);
+                Console.Write(' ');
             }
 
-            for (int i = N-1; i >=0 ; i--)
-            {
-                Console.Write(A[i]);
-            }
 
-            Console.ReadKey();
+
+
+
+
+
+
+
+
+
+
+
+
+            //int[] A = new int[N];
+
+            //for (int i = 0; i < N; i++)
+            //{
+            //    A[i] = Convert.ToInt32(Console.ReadLine());
+            //}
+
+            //Array.Reverse(A);
+            //foreach (var item in A)
+            //{
+            //    Console.Write(item);
+            //    Console.Write(" ");
+            //}
+
+            //Console.ReadKey();
         }
     }
 }
